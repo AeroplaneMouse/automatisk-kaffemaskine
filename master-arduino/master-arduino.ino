@@ -5,6 +5,13 @@
 #define pinRedLED 5
 
 void setup() {
+  /*
+   * Set pinMode
+   */
+  pinMode(pinSwitch, INPUT_PULLUP);
+  pinMode(pinKnap, INPUT_PULLUP);
+  pinMode(pinGreenLED, OUTPUT);
+  pinMode(pinRedLED, OUTPUT);
 }
 
 void loop() {
